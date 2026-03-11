@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section id="contact">
-      <div className="section-label">05 — Contact</div>
+      <div className="section-label">06 — Contact</div>
       <h2 className="section-title reveal">Let&apos;s Connect</h2>
 
       <div className="contact-inner">
