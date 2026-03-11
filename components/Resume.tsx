@@ -10,8 +10,7 @@ export default function Resume() {
         </p>
         <a
           href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
+          download="Viraj_Parmar_Resume.pdf"
           className="btn btn-gold"
         >
           <i className="fas fa-file-pdf" /> Download Resume
