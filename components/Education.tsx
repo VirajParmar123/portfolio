@@ -27,10 +27,11 @@ export default function Education() {
             </div>
             <div className="edu-degree">{degree}</div>
             <div className="edu-school">
-              <i className="fas fa-map-marker-alt" style={{ marginRight: '6px' }} />
+              <i className="fas fa-map-marker-alt" aria-hidden />
               {school}
             </div>
             <div className="edu-year">{year}</div>
+            <span className="edu-pulse" aria-hidden />
           </div>
         ))}
       </div>

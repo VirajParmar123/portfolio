@@ -34,24 +34,26 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" className="skills-section">
       <div className="section-label">02 — Skills</div>
-      <h2 className="section-title reveal">Tech Arsenal</h2>
+      <h2 className="section-title skills-title reveal">Tech Arsenal</h2>
 
-      {skillGroups.map(({ label, chips }) => (
-        <div key={label} style={{ marginBottom: '44px' }}>
-          <div className="section-label" style={{ marginBottom: '18px', fontSize: '0.58rem' }}>
-            {label}
+      <div className="skills-stack">
+        {skillGroups.map(({ label, chips }) => (
+          <div key={label} className="skills-row reveal">
+            <div className="skills-row-label">
+              {label}
+            </div>
+            <div className="skills-cloud">
+              {chips.map(({ icon, label: chipLabel }) => (
+                <span className="skill-chip" key={chipLabel}>
+                  <i className={icon} /> {chipLabel}
+                </span>
+              ))}
+            </div>
           </div>
-          <div className="skills-cloud reveal">
-            {chips.map(({ icon, label: chipLabel }) => (
-              <span className="skill-chip" key={chipLabel}>
-                <i className={icon} /> {chipLabel}
-              </span>
-            ))}
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </section>
   )
 }

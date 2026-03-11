@@ -15,9 +15,9 @@ const jobs = [
 
 export default function Experience() {
   return (
-    <section id="experience">
+    <section id="experience" className="experience-section">
       <div className="section-label">03 — Experience</div>
-      <h2 className="section-title reveal">Work History</h2>
+      <h2 className="section-title experience-title reveal">Work History</h2>
 
       <div className="timeline">
         {jobs.map(({ date, role, company, desc }) => (
@@ -26,7 +26,7 @@ export default function Experience() {
             <div className="timeline-date">{date}</div>
             <div className="timeline-role">{role}</div>
             <div className="timeline-company">
-              <i className="fas fa-building" style={{ marginRight: '7px' }} />
+              <i className="fas fa-building timeline-company-icon" />
               {company}
             </div>
             <div className="timeline-desc">{desc}</div>

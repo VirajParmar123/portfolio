@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <p>
-        Crafted with care by <span>Viraj Parmar</span> — 2025
+        Crafted with care by <span>Viraj Parmar</span> — 2026
       </p>
       <p>
         MS CS @ <span>Rowan University</span>

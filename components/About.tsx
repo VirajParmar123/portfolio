@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about">
       <div className="section-label">01 — About</div>
-      <h2 className="section-title reveal">Who I Am</h2>
+      <h2 className="section-title about-title reveal">Who I Am</h2>
 
       <div className="about-grid">
         <div className="about-text reveal">
@@ -25,9 +25,9 @@ export default function About() {
 
           <div className="stats-row">
             {[
-              { num: '2+', label: 'Years Coding' },
-              { num: '1',  label: 'GCP Cert' },
-              { num: '∞',  label: 'Curiosity' },
+              { num: '2+', label: 'Years Experience' },
+              { num: '1', label: 'Cloud Cert' },
+              { num: '∞', label: 'Problem Solving' },
             ].map(({ num, label }) => (
               <div className="stat" key={label}>
                 <div className="stat-num">{num}</div>
@@ -37,7 +37,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="reveal">
+        <div className="about-side reveal">
           <div className="cert-badge">
             <i className="fab fa-google" />
             <div>
@@ -46,11 +46,11 @@ export default function About() {
             </div>
           </div>
 
-          <div style={{ marginTop: '44px' }}>
-            <div className="section-label" style={{ marginBottom: '20px' }}>
+          <div className="about-exploring">
+            <div className="about-side-label">
               Currently Exploring
             </div>
-            <div className="skills-cloud">
+            <div className="about-chips">
               {[
                 { icon: 'fas fa-network-wired', label: 'Distributed Systems' },
                 { icon: 'fas fa-chart-line',    label: 'System Performance' },
@@ -58,8 +58,9 @@ export default function About() {
                 { icon: 'fas fa-shield-alt',     label: 'Cloud Security' },
                 { icon: 'fas fa-cube',           label: 'Service Mesh' },
               ].map(({ icon, label }) => (
-                <span className="skill-chip" key={label}>
-                  <i className={icon} /> {label}
+                <span className="about-chip" key={label}>
+                  <i className={icon} />
+                  <span>{label}</span>
                 </span>
               ))}
             </div>

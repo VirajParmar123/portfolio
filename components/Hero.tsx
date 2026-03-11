@@ -61,10 +61,10 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="scroll-hint">
+      <a href="#about" className="scroll-hint" aria-label="Scroll to About section">
         <div className="scroll-line" />
         Scroll
-      </div>
+      </a>
     </section>
   )
 }
