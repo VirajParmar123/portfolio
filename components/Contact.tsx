@@ -20,16 +20,17 @@ export default function Contact() {
             </a>
             <a href="tel:+1234567890" className="contact-link">
               <span className="contact-link-icon"><i className="fas fa-phone" /></span>
-              <span className="contact-link-text">+1 (234) 567-890</span>
+              <span className="contact-link-text">+1 (856) 347-6808</span>
             </a>
             <a
-              href="https://www.instagram.com/virajparmar"
+              href="https://www.instagram.com/viraj_parmar_05/"
               target="_blank"
               rel="noreferrer"
               className="contact-link"
             >
               <span className="contact-link-icon"><i className="fab fa-instagram" /></span>
-              <span className="contact-link-text">@virajparmar</span>
+              <span className="contact-link-text">@viraj_parmar_05
+              </span>
             </a>
           </div>
 
@@ -43,11 +44,11 @@ export default function Contact() {
             >
               <i className="fab fa-linkedin" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="contact-social" aria-label="GitHub">
+            <a href="https://github.com/VirajParmar123" target="_blank" rel="noreferrer" className="contact-social" aria-label="GitHub">
               <i className="fab fa-github" />
             </a>
             <a
-              href="https://www.instagram.com/virajparmar"
+              href="https://www.instagram.com/viraj_parmar_05/"
               target="_blank"
               rel="noreferrer"
               className="contact-social"
