@@ -11,6 +11,7 @@ import ParticleCanvas from '@/components/ParticleCanvas'
 import CursorTracker from '@/components/CursorTracker'
 import ScrollReveal from '@/components/ScrollReveal'
 import ThemeScript from '@/components/ThemeScript'
+import ChatBot from '@/components/ChatBot'
 
 export default function Home() {
   return (
@@ -56,6 +57,7 @@ export default function Home() {
       {/* Client-side interactivity */}
       <CursorTracker />
       <ScrollReveal />
+      <ChatBot />
     </>
   )
 }
