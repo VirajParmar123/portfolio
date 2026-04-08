@@ -34,7 +34,7 @@ export default function Nav() {
 
       <div className="nav-right">
         <ul className="nav-links">
-          {['about', 'skills', 'experience', 'education', 'resume', 'contact'].map((s) => (
+          {['about', 'skills', 'experience', 'education', 'resume', 'projects', 'contact'].map((s) => (
             <li key={s}>
               <a href={`#${s}`}>{s.charAt(0).toUpperCase() + s.slice(1)}</a>
             </li>
