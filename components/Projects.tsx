@@ -1,12 +1,12 @@
 const projects = [
   {
-    title: 'Julius Silvert',
-    subtitle: 'Foodservice & restaurant supply website (live demo).',
-    tags: ['Next.js', 'Vercel', 'UI'],
+    title: 'Julius Silvert B2B Ordering Platform',
+    subtitle: 'B2B commerce frontend focused on performance and accessibility.',
+    tags: ['React', 'Vite', 'UI'],
     highlights: [
-      'Modern, responsive UI built for a smooth browsing experience.',
-      'Optimized for fast load times and clean navigation.',
-      'Deployed on Vercel for reliable hosting.',
+      'Built a modular frontend with URL-based routing (hash navigation + query parameters) for efficient product navigation.',
+      'Implemented account features: requisition lists, wishlist state, and Address Book CRUD with persistent client-side storage.',
+      'Optimized re-renders and async state, achieving Lighthouse scores of 95+ Performance, 100 Accessibility, and 90+ SEO.',
     ],
     links: {
       live: 'https://juliussilvert-ckuy.vercel.app/',
@@ -14,13 +14,13 @@ const projects = [
     },
   },
   {
-    title: 'Project Two',
-    subtitle: 'Short one-line description of what it does.',
-    tags: ['React', 'Node.js', 'MongoDB'],
+    title: 'Library Management System',
+    subtitle: 'Spring Boot backend with RESTful CRUD APIs and MySQL.',
+    tags: ['Java', 'Spring Boot', 'MySQL'],
     highlights: [
-      'Designed and implemented key user flows end-to-end.',
-      'Added validation, error handling, and edge-case coverage.',
-      'Optimized loading time and perceived performance.',
+      'Built RESTful CRUD APIs for books and users using Spring Boot and Spring Data JPA.',
+      'Structured controllers → service layer → repository (JPA) for clean, testable architecture.',
+      'Optimized queries with indexing to improve response times.',
     ],
     links: {
       live: '',
@@ -28,13 +28,41 @@ const projects = [
     },
   },
   {
-    title: 'Project Three',
-    subtitle: 'Short one-line description of what it does.',
+    title: 'Cloud Infrastructure Deployment Pipeline',
+    subtitle: 'Containerized deployment on AWS EC2 with automated CI/CD.',
     tags: ['AWS', 'Docker', 'CI/CD'],
     highlights: [
-      'Containerized services and improved local developer experience.',
-      'Automated builds and deployments with repeatable pipelines.',
-      'Hardened configurations and improved observability.',
+      'Designed and deployed a containerized web application using Docker and AWS EC2.',
+      'Implemented GitHub Actions CI/CD to automate builds, testing, and deployments.',
+      'Configured Nginx as a reverse proxy for better performance and traffic routing.',
+    ],
+    links: {
+      live: '',
+      github: '',
+    },
+  },
+  {
+    title: 'Nivas Sathi Hostel Finder',
+    subtitle: 'Full-stack platform with location search and personalized recommendations.',
+    tags: ['Full-Stack', 'REST APIs', 'Google Maps API'],
+    highlights: [
+      'Built a search and comparison platform for hostel accommodations with location-based filtering.',
+      'Integrated an AI-powered recommendation assistant to personalize suggestions from user preferences.',
+      'Added payment API integration to enable seamless booking transactions.',
+    ],
+    links: {
+      live: '',
+      github: '',
+    },
+  },
+  {
+    title: 'Student Database Management System',
+    subtitle: 'Normalized relational database with procedures, triggers, and analytics.',
+    tags: ['SQL', 'Database Design', 'Performance'],
+    highlights: [
+      'Designed a normalized schema with 13 tables and 10K+ records for academic management workflows.',
+      'Implemented stored procedures, triggers, and transactional operations for reliable data changes.',
+      'Optimized indexing strategies to achieve ~15× faster query performance and built reporting views.',
     ],
     links: {
       live: '',

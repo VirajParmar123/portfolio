@@ -1,15 +1,15 @@
 const jobs = [
   {
-    date: 'April 2024 — May 2024',
-    role: 'Web Developer',
-    company: 'Prodigy InfoTech — Ahmedabad, India',
-    desc: 'Developed and maintained full-stack web applications, integrating modern front-end frameworks with robust server-side logic. Collaborated on production-ready systems with a focus on performance and code quality.',
+    date: 'February 2024 — March 2025',
+    role: 'Full-Stack Developer',
+    company: 'Green Apex Solutions Ltd. — Ahmedabad, GJ',
+    desc: 'Led development of a scalable POS SaaS platform by designing backend services and RESTful APIs for restaurant operations and real-time order processing. Improved scalability and performance by migrating from Realm to MongoDB with efficient data models and indexing. Built backend-driven features like role-based dashboards, order management, and reporting tools with maintainable architecture.',
   },
   {
-    date: 'June 2023',
-    role: 'Web Developer Intern',
-    company: 'Green Apex Solutions Limited — Ahmedabad, India',
-    desc: 'Contributed to real-world web development projects, gaining hands-on exposure to professional workflows, agile development processes, and client-facing deliverables.',
+    date: 'November 2023 — January 2024',
+    role: 'Front-End Developer Intern',
+    company: 'Prodigy InfoTech — Remote',
+    desc: 'Developed responsive UI components using HTML, CSS, and JavaScript to improve mobile usability and reduce layout inconsistencies. Integrated REST APIs for dynamic content rendering and smoother interactions. Reduced UI bugs through improved debugging workflows and clean-code practices while collaborating with mentors on UI/UX decisions aligned with accessibility standards.',
   },
 ]
 
